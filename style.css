@@ -109,9 +109,7 @@ a {
 
 .section-1 {
 	text-align: center;
-	margin: 0 auto;
-	width: 95%;
-	margin-bottom: 3rem;
+	margin: 0 1rem 3rem;
 }
 
 .section-1 h2 {
@@ -158,10 +156,10 @@ a {
 	padding: 1rem 0 0 5rem ;
 }
 
-.container-education li {
-	list-style: none;
-}
 
+.container-interests ul li {
+	list-style: unset;
+}
 
 .paragraph {
 	margin-top: 2rem;
@@ -185,10 +183,39 @@ a {
 	color: #fff;
 }
 
-
+li {
+	list-style: none;
+}
 .exp-image {
 	display: none;
 }
+
+.section-exp {
+	margin: 1rem;
+}
+
+.section-exp-1 {
+	margin: 2rem 0;
+}
+
+.duty-container {
+	padding-left: 3rem;
+}
+
+.sub-section-exp {
+	padding: 1rem;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 3px;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+	transition: ease 0.2s;
+	margin-bottom: 2rem;
+}
+
+.role-title {
+	margin-bottom: 1rem;
+	font-style: italic;
+}
+
 
 /*
 
