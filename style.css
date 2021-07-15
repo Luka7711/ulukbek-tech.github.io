@@ -103,9 +103,8 @@ a {
 .about {
 	display: flex;
 	flex-direction: column;
-	padding-top: 15rem;
-	width: 95%;
-	margin: 0 auto;
+	padding-top: 10rem;
+	margin: 0 1rem;
 }
 
 .section-1 {
@@ -186,9 +185,12 @@ a {
 	color: #fff;
 }
 
+
+.exp-image {
+	display: none;
+}
+
 /*
-
-
 
 .about {
 	justify-content: space-between;
