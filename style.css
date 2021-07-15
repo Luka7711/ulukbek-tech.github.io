@@ -111,7 +111,7 @@ a {
 .section-1 {
 	text-align: center;
 	margin: 0 auto;
-	width: 80%;
+	width: 95%;
 }
 
 .section-1 h2 {
@@ -130,7 +130,7 @@ a {
 .profile-img {
 	border-radius: 50%;
 	margin-bottom: 3rem;
-	width: 80%;
+	width: 50%;
 	max-height: 100%;
 	height: auto;
 }
@@ -138,6 +138,8 @@ a {
 .social-media {
 	display: flex;
 	justify-content: space-evenly;
+	width: 35%;
+	margin: 0 auto;
 }
 
 .social-media li {
