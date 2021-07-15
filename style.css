@@ -217,7 +217,7 @@ li {
 }
 
 .container-project {
-	padding: 3rem 1rem;
+	padding: 7rem 1rem;
 	background-color: #365779;
 }
 
@@ -291,11 +291,15 @@ button {
 }
 
 footer {
-	height: 2rem;
+	height: 3rem;
 	background-color: #eaf2fa;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+footer p {
+	font-size: .6rem;
 }
 
 
