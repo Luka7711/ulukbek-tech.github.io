@@ -228,11 +228,18 @@ li {
 }
 
 .project-col-1 {
-	width: 60%;
+	width: 65%;
 }
 
-.project-col-1 h3, .project-col-1 p {
-	font-size: 1em;
+.project-col-1 h3 {
+	font-size: 1.7rem;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.project-col-1 p {
+	font-size: 1.4rem;
+	color: white;
 }
 
 .project-col-2 {
