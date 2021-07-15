@@ -216,6 +216,26 @@ li {
 	font-style: italic;
 }
 
+.container-project {
+	padding: 3rem 1rem;
+	background-color: #365779;
+}
+
+.project-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+
+.project-col-1 {
+	width: 60%;
+}
+
+.project-col-2 {
+	width: 30%;
+}
+
+
 
 /*
 
