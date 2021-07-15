@@ -174,7 +174,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	background-color: #365779;
-	padding: 7rem 0;
+	padding: 5rem 0;
 }
 
 .container-skills div {
@@ -192,7 +192,7 @@ li {
 
 .section-exp {
 	margin: 1rem;
-	padding: 6rem 0;
+	padding: 5rem 0;
 }
 
 .section-exp-1 {
