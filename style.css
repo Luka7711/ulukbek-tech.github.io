@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-size: 16px;
 }
 
 body {
@@ -37,7 +36,7 @@ body {
 	border-radius: 3px;
 	z-index: 0;
 	transition: 1s;
-	height: 40vh;
+	height: 40%;
 }
 
 .name {
@@ -148,6 +147,31 @@ a {
 
 .section-1 {
 	margin-bottom: 7rem;
+}
+
+.sub-section {
+	margin-top: 5rem;
+}
+
+.sub-section div {
+	margin-bottom: 4rem;
+}
+
+.sub-section div ul {
+	padding: 1rem 0 0 5rem ;
+}
+
+.container-education li {
+	list-style: none;
+}
+
+
+.paragraph {
+	margin-top: 2rem;
+}
+
+.img-educ {
+	width: 2rem;
 }
 
 /*
