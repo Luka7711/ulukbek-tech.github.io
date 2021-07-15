@@ -47,9 +47,9 @@ body {
 
 .hamburger .bar {
     display: block;
-    width: 2rem;
-    height: 10px;
-    margin: 15px 5px;
+    width: 2.5rem;
+    height: 4px;
+    margin: 15px 20px;
     -webkit-transition: all 1s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
@@ -166,14 +166,24 @@ a {
 
 .paragraph {
 	margin-top: 2rem;
+	line-height: 2rem;
 }
 
 .img-educ {
 	width: 2rem;
 }
 
-.paragraph {
-	line-height: 3rem;
+.container-skills {
+	display: flex;
+	flex-direction: column;
+	background-color: #365779;
+	padding: 2rem 0;
+}
+
+.container-skills div {
+	text-align: center;
+	margin-bottom: 2rem;
+	color: #fff;
 }
 
 /*
