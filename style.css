@@ -224,11 +224,15 @@ li {
 .project-list {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 2rem;
+	margin-top: 5rem;
 }
 
 .project-col-1 {
 	width: 60%;
+}
+
+.project-col-1 h3, .project-col-1 p {
+	font-size: 1em;
 }
 
 .project-col-2 {
