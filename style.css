@@ -459,4 +459,22 @@ footer p {
 	.submit-right {
 		width: 70%;
 	}
+
+	@media screen and (min-width: 900px) {
+
+		.about {
+			height: 90vh;
+			padding-top: 8rem;
+		}
+
+		.section-1 {
+			width: 30%;
+			margin: 0 1rem;
+		}
+
+		.section-2 {
+			width: 70%;
+			padding-left:0 ;
+		}
+	}
 }
