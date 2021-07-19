@@ -221,7 +221,6 @@ li {
 
 .project-list {
 	display: flex;
-	justify-content: space-between;
 	margin-top: 5rem;
 }
 
@@ -240,7 +239,7 @@ li {
 }
 
 .project-col-2 {
-	width: 25%;
+	width: 30%;
 }
 
 .project-image {
@@ -330,38 +329,23 @@ footer p {
 	.container-skills {
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-evenly;
 		height: 65vh;
 		padding-left: 3rem;
 		padding-right: 3rem;
+		justify-content: space-evenly;
 	}
 
 	.container-skills div:nth-child(1) {
 		width: 100%;
 	}
 
-	.container-skills div:nth-child(2) {
-		width: 50%;
-	}
-
-	.container-skills div:nth-child(3) {
-		width: 50%;
-	}
-
-	.container-skills div:nth-child(4) {
-		width: 32%%;
-	}
-
-	.container-skills div:nth-child(5) {
-		width: 32%%;
-	}
-
-	.container-skills div:nth-child(6) {
-		width: 32%%;
+	.container-skills div:not(:first-child) {
+		width: 33%;
 	}
 
 	.container-skills div {
 		font-size: .8rem;
+		margin-bottom: 3rem;
 	}
 
 	#skills {
@@ -377,7 +361,7 @@ footer p {
 	}
 
 	.section-exp-2 {
-   	 	width: 480px;
+   	 	width: 100%;
 	}
 }
 
@@ -432,17 +416,23 @@ footer p {
     	padding: 1rem 0 0 1rem;
 	}
 
+	.container-skills div {
+		font-size: 1rem;
+	}
+
 	.section-exp {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
 		margin-top: 7rem;
 		margin-bottom: 7rem;
 	}
 
+	.section-exp-1 {
+		width: 40%;
+	}
 
 	.section-exp-2 {
-   	 	width: 55%;
+   	 	width: 60%;
 	}
 
 	.container-submit {
@@ -460,11 +450,16 @@ footer p {
 		width: 70%;
 	}
 
-	@media screen and (min-width: 900px) {
+
+	@media screen and (min-width: 1200px) {
 
 		.about {
-			height: 90vh;
-			padding-top: 8rem;
+			height: 100vh;
+			padding-top: 12rem;
+		}
+
+		.section-exp {
+
 		}
 
 		.section-1 {
@@ -475,6 +470,19 @@ footer p {
 		.section-2 {
 			width: 70%;
 			padding-left:0 ;
+		}
+
+		.container-project {
+			display: flex;
+			padding: 3rem 1.5rem;
+		}
+
+		.project-section-left {
+			width: 35%;
+		}
+
+		.project-section-right {
+			width: 65%;
 		}
 	}
 }
