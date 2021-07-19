@@ -2,7 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-size: 25px;
+}
+
+html {
+	font-size: 12px;
 }
 
 body {
@@ -11,7 +14,7 @@ body {
 
 .navigation {
 	background: #eaf2fa;
-	height:4rem;
+	height:50px;
 	box-shadow: 0 3px 3px rgb(0 0 0 / 20%);
 	width: 100%;
 	display: flex;
@@ -37,30 +40,21 @@ body {
 	border-radius: 3px;
 	z-index: 0;
 	transition: 1s;
-	height: 45%;
+	height: 35%;
 }
 
 .name {
 	margin-left: 1rem;
-	font-size: 1.6rem;
 }
 
 .hamburger .bar {
     display: block;
-    width: 2.5rem;
-    height: 4px;
-    margin: 15px 20px;
+    width: 10px;
+    height: 2px;
+    margin: 3px 20px;
     -webkit-transition: all 1s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
-}
-
-.active .hamburger .bar:nth-child(1) {
-	transform: translateY(3px) rotate(-45deg);
-}
-
-.active .hamburger .bar:nth-child(3) {
-	transform: translateY(-3px) rotate(45deg);
 }
 
 a {
@@ -73,7 +67,6 @@ a {
 	width: 100%;
 	display: block;
 	color: #ffff;
-	font-size: 1.4rem;
 }
 
 .nav-link:hover, .nav-link a:hover {
@@ -87,12 +80,12 @@ a {
 }
 
 .hamburger.active .bar:nth-child(1) {
-	transform: translateY(25px) rotate(45deg);
+	transform: translateY(5px) rotate(45deg);
 	transition: .3s;
 }
 
 .hamburger.active .bar:nth-child(3) {
-	transform: translateY(-25px) rotate(-45deg);
+	transform: translateY(-5px) rotate(-45deg);
 	transition: .3s;
 }
 
@@ -113,7 +106,6 @@ a {
 }
 
 .section-1 h2 {
-	font-size: 3rem;
 	margin-bottom: 1rem;
 }
 
@@ -144,6 +136,10 @@ a {
 	list-style: none;
 }
 
+.scl-link {
+	width: 60%;
+}
+
 .sub-section {
 	margin-top: 5rem;
 }
@@ -163,7 +159,6 @@ a {
 
 .paragraph {
 	margin-top: 2rem;
-	line-height: 2rem;
 }
 
 .img-educ {
@@ -301,6 +296,90 @@ footer {
 
 footer p {
 	font-size: .6rem;
+}
+
+
+@media screen and (min-width: 580px) {
+
+	html {
+		font-size: .5em;
+	}
+
+/*	.navigation {
+		height: 50pxrem;
+	}*/
+
+	.name {
+		font-size: 1rem;
+		margin-left: 39%;
+	}
+
+	.hamburger .bar {
+		width: 1.3rem;
+		margin: 8px 20px;
+	}
+
+	.nav-bar {
+		top: 2rem;
+		height: 35vh;
+	}
+
+	.nav-bar.active {
+		top: 2rem;
+	}
+
+	.nav-link, .nav-link a{
+		font-size: .9rem;
+	}
+
+	.about {
+		padding-top: 7rem;
+		margin: 0 2rem;
+	}
+
+	.section-1{
+		margin: 0 4rem 3rem;
+	}
+
+	.section-1 h2 {
+		font-size: 1.5rem;
+	}
+
+	.container-skills {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		height: 65vh;
+	}
+
+	.container-skills div:nth-child(1) {
+		width: 100%;
+	}
+
+	.container-skills div:nth-child(2) {
+		width: 38%;
+	}
+
+	.container-skills div:nth-child(3) {
+		width: 38%;
+	}
+
+	.container-skills div:nth-child(4) {
+		width: 32%%;
+	}
+
+	.container-skills div:nth-child(5) {
+		width: 32%%;
+	}
+
+	.container-skills div:nth-child(6) {
+		width: 32%%;
+	}
+
+	#skills {
+		font-size: 1.3rem;
+	}
+
 }
 
 
