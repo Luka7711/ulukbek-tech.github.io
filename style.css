@@ -158,7 +158,7 @@ a {
 }
 
 .paragraph {
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 
 .img-educ {
@@ -176,6 +176,10 @@ a {
 	text-align: center;
 	margin-bottom: 2rem;
 	color: #fff;
+}
+
+h1 {
+	font-weight: 100;
 }
 
 li {
@@ -224,28 +228,30 @@ li {
 }
 
 .project-col-1 {
-	width: 65%;
+	width: 70%;
 }
 
 .project-col-1 h3 {
-	font-size: 1.7rem;
 	margin-bottom: 10px;
 	color: white;
 }
 
 .project-col-1 p {
-	font-size: 1.4rem;
 	color: white;
 	margin-top: 1rem;
 }
 
 .project-col-2 {
-	width: 30%;
+	width: 25%;
+}
+
+.project-image {
+	width: 100%;
 }
 
 .project-section-left h1 {
 	color: #ffff;
-	font-size: 1.5rem;
+	font-weight: 100;
 }
 
 .contact-img {
