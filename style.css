@@ -99,6 +99,7 @@ a {
 	flex-direction: column;
 	padding-top: 10rem;
 	margin: 0 1rem;
+	color: #565151;
 }
 
 .section-1 {
@@ -137,7 +138,7 @@ a {
 }
 
 .social-media-icon {
-	font-size: 2rem! important;
+	font-size: 2.5rem! important;
 	color: #a5962a
 }
 
@@ -176,6 +177,13 @@ a {
 .container-skills div {
 	text-align: center;
 	margin-bottom: 2rem;
+}
+
+.container-skills div:not(:first-child) {
+	color: #d1d3d7;
+}
+
+.container-skills div:first-child {
 	color: #fff;
 }
 
@@ -192,6 +200,7 @@ li {
 
 .section-exp {
 	margin: 1rem;
+	color: #565151;
 }
 
 .section-exp-1 {
@@ -210,8 +219,14 @@ li {
 	color: #abd1ff;
 }
 
-.link-code :hover {
+.link-code:hover {
+	background-color: #abd1ff;
+	color: white;
+	transition: ease-out .2s;
+}
 
+.icon-code {
+	margin-right: 4px;
 }
 
 .sub-section-exp {
