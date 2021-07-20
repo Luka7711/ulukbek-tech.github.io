@@ -273,7 +273,8 @@ input {
 	padding: 1rem;
 	margin-bottom: 2rem;
 	font-family:Merriweather;
-	border: 1px solid #ced4da
+	border: 1px solid #ced4da;
+	border-radius: 3px;
 }
 
 textarea {
@@ -283,6 +284,7 @@ textarea {
 	font-family:Merriweather;
 	border: 1px solid #ced4da;
 	margin-bottom: 10px;
+	border-radius: 3px;
 }
 
 button {
@@ -425,6 +427,12 @@ footer p {
 		width: 40%;
 	}
 
+	.exp-image {
+		display: block;
+		max-width: 55%;
+		padding-top: 5rem;
+	}
+
 	.section-exp-2 {
    	 	width: 60%;
 	}
@@ -536,7 +544,7 @@ footer p {
 		}
 
 		.nav-link {
-			font-size: .8rem;
+			font-size: .9rem;
 		}
 
 		.about {
@@ -561,6 +569,10 @@ footer p {
 
 		.container-submit {
 			padding: 7rem 0rem;
+		}
+
+		button {
+			font-size: 1rem;
 		} 
 	}
 }
