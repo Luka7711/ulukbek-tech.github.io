@@ -537,11 +537,15 @@ footer p {
 
 		.about {
 			max-width: 1550px;
-			padding-bottom: 5rem;
+			padding-bottom: 7rem;
 		}
 
 		.container-skills {
 			padding:100px 350px;
+		}
+
+		.container-skills div {
+			margin-bottom: 5rem;
 		}
 
 		.section-exp {
@@ -552,7 +556,7 @@ footer p {
 		}
 
 		.container-submit {
-			max-width: 1400px;
+			max-width: 1500px;
 			padding: 7rem;
 		} 
 	}
