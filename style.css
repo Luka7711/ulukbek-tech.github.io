@@ -260,6 +260,8 @@ li {
 .project-col-1 h3 {
 	margin-bottom: 10px;
 	color: white;
+	letter-spacing: 2px;
+	font-weight: 100;
 }
 
 .project-col-1 p:nth-child(1), .project-col-1 p:nth-child(2) {
@@ -596,6 +598,7 @@ footer p {
 
 		.container-skills div {
 			margin-bottom: 5rem;
+			font-size: 1.5rem;
 		}
 
 		.section-exp {
