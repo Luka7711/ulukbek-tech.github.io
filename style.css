@@ -535,8 +535,12 @@ footer p {
 			font-size: 22px;
 		}
 
+		.nav-link {
+			font-size: .8rem;
+		}
+
 		.about {
-			max-width: 1550px;
+			max-width: 1650px;
 			padding-bottom: 7rem;
 		}
 
@@ -556,8 +560,7 @@ footer p {
 		}
 
 		.container-submit {
-			max-width: 1500px;
-			padding: 7rem;
+			padding: 7rem 0rem;
 		} 
 	}
 }
