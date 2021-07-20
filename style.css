@@ -511,7 +511,7 @@ footer p {
 		.container-submit {
     		max-width: 1200px;
     		margin: 0 auto;
-		    padding: 3rem;
+		    padding: 7rem 3rem;
 		}
 
 		.submit-left {
@@ -521,6 +521,23 @@ footer p {
 		.submit-right {
 			width: 60%;
 		}
-	
+	}
+
+	@media screen and (min-width: 1700px) {
+		.container-project {
+			padding-left: 15rem;
+			padding-right: 15rem;
+		}
+	}
+
+	@media screen and (min-width: 1900px) {
+		body {
+			font-size: 22px;
+		}
+
+		.about {
+			max-width: 1400px;
+			padding-bottom: 5rem;
+		}
 	}
 }
