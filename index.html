@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://use.typekit.net/eer4fpv.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="navigation">
@@ -13,13 +13,13 @@
 			<h3>Ulukbek Nusubaliev</h3>
 		</div>
 		<ul class="nav-bar">
-			<li class="nav-link">Experience</li>
-			<li class="nav-link">Home</li>
-			<li class="nav-link">Projects</li>
+			<li class="nav-link scroll-link">Home</li>
+			<li class="nav-link scroll-link">Experience</li>
+			<li class="nav-link scroll-link">Projects</li>
 			<li class="nav-link" id="nav-btn">
 				<a href="./docs/ulukbek_resume.pdf" target="blank">Resume</a>	
 			</li>
-			<li class="nav-link">Contact</li>
+			<li class="nav-link scroll-link">Contact</li>
 		</ul>
 
 		<div class="hamburger">
@@ -35,10 +35,11 @@
 				<h2>Ulukbek Nusubaliev</h2>
 				<h5 id="major">Full Stack Development</h5>
 				<h5>General Assembly Bootcamp at Chicago</h5>
+				<h5><i class="fa fa-map-marker"></i> Chicago, IL</h5>
 			<ul class="social-media">
-				<li><img class="scl-link" src="./images/github.png"></li>
-				<li><img class="scl-link" src="./images/linkedin.png"></li>
-				<li><img class="scl-link" src="./images/instagram.png"></li>
+				<li><i class="fa fa-github social-media-icon"></i></li>
+				<li><i class="fa fa-linkedin social-media-icon"></i></li>
+				<li><i class="fa fa-instagram social-media-icon"></i></li>
 			</ul>
 		</div>
 		
@@ -72,8 +73,8 @@
 				<div class="container-education">
 					<h3>Education</h3>
 					<ul>
-						<li><img src="./images/patent.png" class="img-educ">General Assembly</li>
-						<li><img src="./images/patent.png" class="img-educ">Kyrgyz Economic University</li>
+						<li><i class="fa fa-graduation-cap"></i>General Assembly</li>
+						<li><i class="fa fa-graduation-cap"></i>Kyrgyz Economic University</li>
 					</ul>
 				</div>
 			</div>
@@ -87,36 +88,36 @@
 
 		<div>
 			<img src="./images/js.png">
-			<h3>JavaScript</h3>
+			<h3 class="lang-title">JavaScript</h3>
 			<p>React, jQuery, Node</p>
 		</div>
 
 		<div>
 			<img src="./images/ruby.png">
-			<h3>Ruby</h3>
+			<h3 class="lang-title">Ruby</h3>
 			<p>Sinatra</hp>
 		</div>
 
 		<div>
 			<img src="./images/database.png">
-			<h3>Databases</h3>
+			<h3 class="lang-title">Databases</h3>
 			<p>MySQL, PostgreSQL</p>
 		</div>
 
 		<div>
 			<img src="./images/api-c.png">
-			<h3>REST API</h3>
+			<h3 class="lang-title">REST API</h3>
 		</div>
 
 		<div>
 			<img src="./images/cloud-network.png">
-			<h3>Cloud Service</h3>
+			<h3 class="lang-title">Cloud Service</h3>
 			<p>Heroku</p>
 		</div>
 
 		<div>
 			<img src="./images/ui.png">
-			<h3>UI</h3>
+			<h3 class="lang-title">UI</h3>
 			<p>CSS, Bootstrap</p>
 		</div>
 	</div>
@@ -216,8 +217,8 @@
 				<div class="project-col-1">
 					<h3>Cinematica</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-					<p>#React, #Node, #Mongodb</p>
-					<a href=""> <i class="fab fa-github"></i>code </a>
+					<p class="hashtags">#React, #Node, #Mongodb</p>
+					<a href="" class="link-code"> <i class="fa fa-github-alt icon-code"></i>code </a>
 				</div>
 				
 				<div class="project-col-2">
@@ -229,9 +230,9 @@
 				<div class="project-col-1">
 					<h3>Chat App</h3>
 					<p>Lorem ipsum dolor sit amet, </p>
-					<p>#React, #Node</p>
-					<a href="">
-						<i class="fab fa-github"></i>code
+					<p class="hashtags">#React, #Node</p>
+					<a href="" class="link-code">
+						<i class="fa fa-github-alt icon-code"></i>code
 					</a>
 				</div>
 				
@@ -244,9 +245,9 @@
 				<div class="project-col-1">
 					<h3>Book Exchange</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-					<p>#Ruby, #Sinatra, #MySQL </p>
-					<a href="">
-						code
+					<p class="hashtags">#Ruby, #Sinatra, #MySQL </p>
+					<a href="" class="link-code">
+						<i class="fa fa-github-alt icon-code"></i>code
 					</a>
 				</div>
 
@@ -286,7 +287,6 @@
 			<p>&copy;Ulukbek Nusubaliev 2021</p>
 		</div>
 	</footer>
-	
 	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
