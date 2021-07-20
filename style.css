@@ -329,9 +329,7 @@ footer p {
 	.container-skills {
 		flex-direction: row;
 		flex-wrap: wrap;
-		height: 65vh;
-		padding-left: 3rem;
-		padding-right: 3rem;
+		padding: 3rem;
 		justify-content: space-evenly;
 	}
 
@@ -464,13 +462,18 @@ footer p {
 			margin: 0 auto;
 		}
 
+		.section-1 {
+			width: 30%;
+		}
+
+		.section-2 {
+			width: 70%;
+		}
+
 		.profile-img {
 			width: 70%;
 		}
 
-		.section-exp {
-
-		}
 
 		.section-1 {
 			max-width: 33.3%;
@@ -480,6 +483,11 @@ footer p {
 		.section-2 {
 			width: 66.6%;
 			padding-right:0 ;
+		}
+
+		.section-exp {
+			max-width: 1200px;
+			margin: 5rem auto;
 		}
 
 		.container-project {
@@ -496,16 +504,23 @@ footer p {
 		}
 
 		.container-skills {
-			padding-left: 22rem;
-			padding-right: 22rem;
+			margin: 3rem auto;
+			padding: 3rem 7rem;
 		}
 
-		.section-1 {
-			width: 30%;
+		.container-submit {
+    		max-width: 1200px;
+    		margin: 0 auto;
+		    padding: 3rem;
 		}
 
-		.section-2 {
-			width: 70;
+		.submit-left {
+			width: 40%;
 		}
+
+		.submit-right {
+			width: 60%;
+		}
+	
 	}
 }
