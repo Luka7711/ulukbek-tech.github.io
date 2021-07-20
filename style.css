@@ -536,8 +536,24 @@ footer p {
 		}
 
 		.about {
-			max-width: 1400px;
+			max-width: 1550px;
 			padding-bottom: 5rem;
 		}
+
+		.container-skills {
+			padding:100px 350px;
+		}
+
+		.section-exp {
+			max-width: 1400px;
+		}
+		.container-project {
+			padding: 100px 350px;
+		}
+
+		.container-submit {
+			max-width: 1400px;
+			padding: 7rem;
+		} 
 	}
 }
