@@ -97,7 +97,7 @@ a {
 .about {
 	display: flex;
 	flex-direction: column;
-	padding-top: 10rem;
+	padding-top: 7rem;
 	margin: 0 1rem;
 	color: #565151;
 }
