@@ -156,6 +156,10 @@ a {
   margin-bottom: 2rem;
 }
 
+.sub-section ul li {
+  padding-bottom: 5px;
+}
+
 .sub-section div ul {
   padding: 1rem 0 0 5rem;
 }
@@ -521,7 +525,7 @@ footer p {
     }
 
     .nav-bar {
-      width: 30%;
+      width: 40%;
     }
 
     .about {
@@ -592,6 +596,7 @@ footer p {
   }
 
   @media screen and (min-width: 1700px) {
+
     .container-project {
       padding-left: 15rem;
       padding-right: 15rem;
