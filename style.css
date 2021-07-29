@@ -601,6 +601,10 @@ footer p {
       padding-left: 15rem;
       padding-right: 15rem;
     }
+
+    .nav-bar {
+      width: 30%;
+    }
   }
 
   @media screen and (min-width: 1900px) {
