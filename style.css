@@ -353,7 +353,7 @@ button {
 }
 
 footer {
-  height: 3rem;
+  height: 10rem;
   background-color: #eaf2fa;
   display: flex;
   justify-content: center;
@@ -361,7 +361,7 @@ footer {
 }
 
 footer p {
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -623,6 +623,7 @@ footer p {
     }
 
     .about {
+      max-width: 1200px;
       padding-bottom: 7rem;
     }
 
