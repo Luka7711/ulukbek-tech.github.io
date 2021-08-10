@@ -137,15 +137,15 @@ a {
   list-style: none;
 }
 
-.social-media-icon:hover{
+.social-media-icon:hover {
   cursor: pointer;
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .social-media-icon {
   font-size: 2.5rem !important;
   color: #276cb2;
-  transition:ease-out .1s;
+  transition: ease-out 0.1s;
 }
 
 .sub-section {
@@ -593,15 +593,20 @@ footer p {
     .submit-right {
       width: 60%;
     }
+
+    .input {
+      font-size: 1rem;
+    }
   }
 
   @media screen and (min-width: 1700px) {
-
     .container-project {
       padding-left: 15rem;
       padding-right: 15rem;
     }
-
+    .about {
+      max-width: 1300px;
+    }
     .nav-bar {
       width: 30%;
     }
@@ -618,7 +623,6 @@ footer p {
     }
 
     .about {
-      max-width: 1650px;
       padding-bottom: 7rem;
     }
 
