@@ -536,15 +536,15 @@ footer p {
     }
 
     .section-1 {
-      width: 30%;
+      width: 39%;
     }
 
     .section-2 {
-      width: 70%;
+      width: 60%;
     }
 
     .profile-img {
-      width: 70%;
+      width: 80%;
     }
 
     .section-1 {
@@ -623,8 +623,9 @@ footer p {
     }
 
     .about {
-      max-width: 1350px;
+      max-width: 1400px;
       padding-bottom: 7rem;
+      padding-top: 10rem;
     }
 
     .container-skills {
