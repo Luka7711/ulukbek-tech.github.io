@@ -17,16 +17,48 @@ window.onload = () => {
 	hamburger.addEventListener('click', () => {
 		navbar.classList.toggle("active");
 		hamburger.classList.toggle("active");
-		console.log("ha")
 	});
 
-	function styleBulletList() {
-		let ul = document.querySelectorAll('.duty-container');
-		ul.forEach(ul => {
-				ul.children.forEach(li => console.log(li))
-		});
-	}
+	// function styleBulletList() {
+	// 	let ul = document.querySelectorAll('.duty-container');
+	// 	ul.forEach(ul => {
+	// 			ul.children.forEach(li => console.log(li))
+	// 	});
+	// }
 
-	styleBulletList()
+	// styleBulletList()
 
 };
+
+
+
+let data = {}
+
+document.querySelector("#myForm").addEventListener("submit",  async(e) => {
+	e.preventDefault();
+	console.log(data)
+	const url = "https://formspree.io/f/xyyvpbpa"	
+	await fetch(url, {
+		method: 'POST',
+		mode: 'no-cors',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify(data)
+	});
+})
+
+const inputs = document.querySelectorAll(".input")
+
+
+for (input of inputs) {
+	input.addEventListener("keyup", (e) => {
+		if (e.target.value !== "") {
+			data[e.target.name] = e.target.value;
+		}
+	})
+}
+
+
+
+// action="https://formspree.io/f/xyyvpbpa" method="POST"
