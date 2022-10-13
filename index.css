@@ -359,15 +359,16 @@ li {
 }
 
 .container-submit {
-  margin: 3rem 1rem;
+  padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem 0 5rem;
+  justify-content: center;
+  height: 40rem;
 }
 
 .submit-right {
-  width: 80%;
+  width: 100%;
   margin-top: 2rem;
 }
 
@@ -410,6 +411,17 @@ footer {
 
 footer p {
   font-size: 1rem;
+}
+
+.thanksMessage {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.thanksMessage ul li:nth-child(2) {
+  margin:20px 0;
 }
 
 @media screen and (min-width: 600px) {
@@ -465,7 +477,13 @@ footer p {
   .section-exp-2 {
     width: 100%;
   }
+
+  .submit-right {
+    width: 50%;
+  }
 }
+
+
 
 @media screen and (min-width: 900px) {
   .hamburger {
@@ -554,10 +572,7 @@ footer p {
   }
 
   .container-submit {
-    display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    margin: 3rem;
   }
 
   .submit-left {
@@ -641,7 +656,7 @@ footer p {
     .container-submit {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 7rem 3rem;
+      height: 45rem;
     }
 
     .submit-left {

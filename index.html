@@ -310,22 +310,11 @@
 		</div>
 
 		<div class="submit-right">
-			<form action="https://formsubmit.co/66fbbd0e7527df1c42c2e1e69cb27963" method="POST">
-				<div>
-					<input class="input" type="text" name="name" placeholder="Name..."required>
-				</div>
-				<input type="hidden" name="_captcha" value="false">
-     			<div>
-					<input type="hidden" name="_next" value="https://ulukbek.netlify.app/pages/thanks.html">
-				</div>
-     			<div>
-    				<input class="input" type="email" id="button" name="email" placeholder="Your email..." required>
-     			</div>
-    			
-    			<div>
-    				<textarea class="input" name="Message" class="form-control" id="inputMessage" rows="5" placeholder="Say hi!" required="" spellcheck="false"></textarea>
-    			</div>
-     			<button type="submit">Send</button>
+			<form id="myForm">
+				<input class="input" type="text" name="name" placeholder="Name..."required>
+    			<input class="input email" type="email" id="button" name="email" placeholder="Your email..." >
+    			<textarea class="input" name="message" class="form-control" id="inputMessage" rows="5" placeholder="How may I help?" required="" spellcheck="false"></textarea>
+     			<button type="submit" id="submit_btn">Send</button>
 			</form>
 		</div>
 	</div>
@@ -336,5 +325,7 @@
 		</div>
 	</footer>
 	<script type="text/javascript" src="index.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
+
