@@ -32,11 +32,15 @@ window.onload = () => {
 
 
 
-let data = {}
+let data = {
+	"name": "",
+	"email": "",
+	"message": ""
+}
+
 
 document.querySelector("#myForm").addEventListener("submit",  async(e) => {
 	e.preventDefault();
-	console.log(data)
 	const url = "https://formspree.io/f/xyyvpbpa"	
 	await fetch(url, {
 		method: 'POST',
@@ -46,12 +50,13 @@ document.querySelector("#myForm").addEventListener("submit",  async(e) => {
 		},
 		body: JSON.stringify(data)
 	});
+	return clearData(data);
 })
 
 const inputs = document.querySelectorAll(".input")
 
-
-for (input of inputs) {
+for (let input of inputs) {
+	input.value = data[input.name]
 	input.addEventListener("keyup", (e) => {
 		if (e.target.value !== "") {
 			data[e.target.name] = e.target.value;
@@ -59,6 +64,13 @@ for (input of inputs) {
 	})
 }
 
+function clearData(data) {
+	for (let input of inputs) {
+		data[input.name] = ""
+		input.value = ""
+	}
+	return data
+}
 
 
 // action="https://formspree.io/f/xyyvpbpa" method="POST"
