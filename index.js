@@ -19,15 +19,6 @@ window.onload = () => {
 		hamburger.classList.toggle("active");
 	});
 
-	// function styleBulletList() {
-	// 	let ul = document.querySelectorAll('.duty-container');
-	// 	ul.forEach(ul => {
-	// 			ul.children.forEach(li => console.log(li))
-	// 	});
-	// }
-
-	// styleBulletList()
-
 };
 
 
@@ -41,16 +32,17 @@ let data = {
 
 document.querySelector("#myForm").addEventListener("submit",  async(e) => {
 	e.preventDefault();
-	const url = "https://formspree.io/f/xyyvpbpa"	
-	await fetch(url, {
-		method: 'POST',
-		mode: 'no-cors',
-		headers: {
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify(data)
-	});
-	return clearData(data);
+	// const url = "https://formspree.io/f/xyyvpbpa"	
+	// await fetch(url, {
+	// 	method: 'POST',
+	// 	mode: 'no-cors',
+	// 	headers: {
+	// 		'Content-Type': 'application/json'
+	// 	},
+	// 	body: JSON.stringify(data)
+	// });
+	clearData(data);
+	displaySuccessMessage()
 })
 
 const inputs = document.querySelectorAll(".input")
@@ -72,5 +64,17 @@ function clearData(data) {
 	return data
 }
 
+function displaySuccessMessage() {
+	let container = document.querySelector('.container-submit');
+	let title = document.querySelector(".submit-left");
+	let form = document.querySelector(".submit-right");
+	let successContainer = document.createElement("div")
+	let h4 = document.createElement("h4")
+	const textNode = document.createTextNode("Thank you!")
+	container.removeChild(title);
+	container.removeChild(form);
+	container.appendChild(successContainer);
+	successContainer.appendChild(h4)
+	h4.appendChild(textNode)
+}
 
-// action="https://formspree.io/f/xyyvpbpa" method="POST"
